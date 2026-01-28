@@ -7,7 +7,7 @@ send_email = [
 ]
 
 [vars]
-SENDER_NAME = "auteric-landing"
+SENDER_NAME = "email-worker"
 SENDER_EMAIL = "hello@auteric.com"
 PATH_NAME = "/send"
 
