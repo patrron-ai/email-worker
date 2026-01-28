@@ -1,14 +1,14 @@
 name = "cf-worker-mailer"
 main = "src/index.ts"
-compatibility_date = "2025-02-04"
+compatibility_date = "2026-01-28"
 
 send_email = [
-  { name = "CF_MAILER", destination_address = "your-destination-email@example.com" }
+  { name = "CF_MAILER", destination_address = "patrronai@gmail.com" }
 ]
 
 [vars]
-SENDER_NAME = "Your Service Name"
-SENDER_EMAIL = "no-reply@your-domain.com"
+SENDER_NAME = "Auteric Landing"
+SENDER_EMAIL = "hello@auteric.com"
 PATH_NAME = "/send"
 
 [observability]
